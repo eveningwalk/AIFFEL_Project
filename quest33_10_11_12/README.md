@@ -19,11 +19,13 @@ PRT(PeerReviewTemplate)
  : 네. 다양한 접근방법으로 오류를 해결과 수정을 시도하였네요
 - [ ] 코드가 간결한가요? 네 
  문장 길이 40이하 선별
+```python
 # In[6]:
 def sentence_length_stats(data):
     mask = data['Korean'].str.len() <= 40
     result = data[mask]
 
-    return result ----------------------------------------------
+    return result
+```
 
 참고 링크 및 코드 개선
