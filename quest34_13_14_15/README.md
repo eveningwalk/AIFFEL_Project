@@ -9,7 +9,7 @@ PRT(PeerReviewTemplate)
 
 - [ ] 코드가 정상적으로 동작하고 주어진 문제를 해결했나요?
   ```python
-
+    def test():
   ```
 
 - [x] 주석을 보고 작성자의 코드가 이해되었나요?
